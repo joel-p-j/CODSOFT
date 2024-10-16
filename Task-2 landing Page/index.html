@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet" />
+
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Responsive Landing Page</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+            <a href="#" class="nav__logo">
+                shop
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-line"></i>
+                        <span>Home</span></a>
+                    </li>
+                
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">
+                            <i class="ri-store-3-fill"></i>
+                        <span>New</span></a>
+                    </li>
+                
+
+                    <li class="nav__item">
+                        <a href="#collection" class="nav__link">
+                        <i class="ri-compass-line"></i>
+                        <span>Collection</span></a>
+                    </li>
+                
+                
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                        <i class="ri-box-1-fill"></i>
+                        <span>Products</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </nav>
+        </header>
+
+        <main class="main">
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            New Shoes <br>
+                            Collection
+                        </h1>
+                        <p class="home__description">
+                            The new collection of shopping from <br>
+                            the best brands this year.
+                        </p>
+                        <a href="#new" class="button__link">
+                            Explore <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="home__images">
+                        <img src="img/homeshoe1.webp" alt="home image">
+                        <img src="img/homeshoe2.webp" alt="home image">
+                    </div>
+                </div>
+            </section>
+
+            <section class="new section" id="new">
+                <h2 class="section__title">
+                    New Categories
+                </h2>
+                <div class="new__container container grid">
+                    <article class="new__card">
+                        <img src="img/nikeair.png" alt="new image" class="new__img">
+                        <a href="#" class="new__link">
+                            <div class="new__data">
+                                <h2 class="new__title">
+                                    Nike Air
+                                </h2>
+                                <span class="new__subtitle">
+                                    New collection
+                                </span>
+                            </div>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="new__card">
+                        <img src="img/adidas.jpg" alt="new image" class="new__img">
+                        <a href="#" class="new__link">
+                            <div class="new__data">
+                                <h2 class="new__title">
+                                    PUMA
+                                </h2>
+                                <span class="new__subtitle">
+                                    New collection
+                                </span>
+                            </div>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="new__card">
+                        <img src="img/puma2.jpg" alt="new image" class="new__img">
+                        <a href="#" class="new__link">
+                            <div class="new__data">
+                                <h2 class="new__title">
+                                    ADIDAS
+                                </h2>
+                                <span class="new__subtitle">
+                                    New collection
+                                </span>
+                            </div>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="collection section" id="collection">
+                <div class="collection__container container">
+                    <div class="collection__explore">
+                        <div class="collection__data-men">
+                            <h2 class="collection__title">
+                              Men <br>
+                              Collection
+                            </h2>
+                            <a href="#" class="button__link">
+                                Explore shoes <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        <img src="img/collectionshoe1.png" alt="collection image">
+                    </div>
+
+                    <div class="collection__explore">
+                        <img src="img/collectionshoe2.png" alt="collection image">
+                        <div class="collection__data-women">
+                            <h2 class="collection__title">
+                              Women <br>
+                              Collection
+                            </h2>
+                            <a href="#" class="button__link">
+                                Explore shoes <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="products section" id="products">
+                <h2 class="section__title">
+                    Best Products
+                </h2>
+                <div class="products__container container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="prducts__card swiper-slide">
+                            <img src="img/productshoe1.png" alt="product image" class="products__img">
+                            <h2 class="products__title">
+                                 Nike Renew Rival Premium Floral
+                            </h2>
+                            <span class="products__price">
+                                $111.99
+                            </span>
+                        </article>
+                        <article class="prducts__card swiper-slide">
+                            <img src="img/productshoe2.png" alt="product image" class="products__img">
+                            <h2 class="products__title">
+                                Nike Air Jordan 1 Retro
+                            </h2>
+                            <span class="products__price">
+                                $99.99
+                            </span>
+                        </article>
+                        <article class="prducts__card swiper-slide">
+                            <img src="img/productshoe3.png" alt="product image" class="products__img">
+                            <h2 class="products__title">
+                               Nike Air Max 1 Premium Just Do it
+                            </h2>
+                            <span class="products__price">
+                                $89.99
+                            </span>
+                        </article>
+                        <article class="prducts__card swiper-slide">
+                            <img src="img/productshoe4.png" alt="product image" class="products__img">
+                            <h2 class="products__title">
+                               Adidas
+                            </h2>
+                            <span class="products__price">
+                               $109.99 
+                            </span>
+                        </article>
+
+                    </div>
+                    <div class="swiper-button-next">
+                      <i class="ri-arrow-right-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                       <i class="ri-arrow-left-line"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="brand section">
+                <h2 class="section__title">
+                    Brands We Sell
+                </h2>
+                <div class="brand__container container grid">
+                    <img src="img/logo1.png" alt="logo image" class="brand__img">
+                    <img src="img/logo2.png" alt="logo image" class="brand__img">
+                    <img src="img/logo3.png" alt="logo image" class="brand__img">
+                    <img src="img/logo4.png" alt="logo image" class="brand__img">
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        shop
+                    </a>
+                    <p class="footer__description">
+                        Committed to bringing you the <br> 
+                        best shopping from popular <br>
+                        brands.
+
+                    </p>
+                </div>
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            company
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Shop</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Category</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Contact info</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">
+                          Blog
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Events</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Popular news</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Recent news</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">
+                            Ofiice
+                        </h3>
+                        <p class="footer__information">
+                            Monday - Saturday <br>
+                            9AM - 10PM
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">
+                          Contact us
+                        </h3>
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello" target="_blank" class="footer__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </ul>
+                    </div>target
+                    <div class="footer__content">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Joel. All rights reserved
+                </span>
+                <a href="#" class="footer__privacy">
+                    Terms & Conditions
+                </a>
+            </div>
+
+        </footer>
+
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+</a>
+        
+        <script src=""></script>
+
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
