@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.calc
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 80px;
+    width: 400px;
+    gap: 10px;
+}
+.box{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    position: relative;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(251, 248, 248);
+    border-radius:10%;
+    font-weight: bolder;
+    font-family: sans-serif, 'roboto';
+    font-size: 30px;
+
+    
+    
+    
+}
+#input-calc{
+    /*display: grid;
+    /*grid-column-start: 1;
+    grid-column-end: 5;*/
+    width: 395px;
+    border: 1px solid black;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+    border-radius:0%;
+    border: 4px solid black;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(115, 242, 242);
+
+
+}
+.container{
+    width: 440px;
+    height: 100%;
+    border: 2px solid black;
+    background-color: rgb(48, 45, 53);
+    border-radius:5%;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 40%;
+
+    
+}
+.delete-box{
+    width: 91px;
+    height: 70px;
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(251, 248, 248);
+    border-radius:10%;
+    font-weight: bolder;
+    font-family: sans-serif, 'roboto';
+    font-size: 30px;
+    
+
+}
+body{
+    font-weight: bolder;
+
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+
+}
+.operator{
+    background-color: hsl(35, 100%, 50%);
+}
+.operator:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.clearbtn{
+    background-color: red;
+}
+.clearbtn:hover{
+    background-color: hsl(0, 75%, 55%);
+}
